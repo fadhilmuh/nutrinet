@@ -1,0 +1,20 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore specific file types
+*.log
+*.tmp
+*.bak
+
+# Ignore files
+depth_model_weights_finetuned.pth
+dpfnutrition_1d_depth_main_model.pth
